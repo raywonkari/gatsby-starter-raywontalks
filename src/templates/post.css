@@ -1,0 +1,9 @@
+#gatsby-plugin-page-progress {
+  margin-top: 74px;
+}
+
+@media only screen and (min-width: 992px) {
+  .post-container {
+    width: 700px;
+  }
+}

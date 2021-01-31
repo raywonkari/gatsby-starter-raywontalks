@@ -1,0 +1,48 @@
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .feed-card {
+    margin: auto;
+  }
+
+  .subscribe-div {
+    padding-top: 100px;
+  }
+
+  .subscribe-form {
+    height: 300px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .feed-card {
+    margin: auto;
+  }
+
+  .subscribe-div {
+    padding-top: 200px;
+  }
+
+  .subscribe-form {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+  }
+}
+
+/* Laptop */
+@media only screen and (min-width: 992px) {
+  .feed-card {
+    margin: auto;
+  }
+
+  .subscribe-div {
+    padding-top: 200px;
+  }
+
+  .subscribe-form {
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 405px;
+  }
+}

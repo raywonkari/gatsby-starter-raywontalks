@@ -1,0 +1,21 @@
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .notfound {
+    margin: 180px 50px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .notfound {
+    margin: 150px 50px;
+  }
+}
+
+/* Laptop */
+@media only screen and (min-width: 992px) {
+  .notfound {
+    padding-top: 175px;
+    margin: 175px 150px;
+  }
+}

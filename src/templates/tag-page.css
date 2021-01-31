@@ -1,0 +1,10 @@
+.tags-page {
+  padding-top: 110px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .tags-page-container {
+    width: 700px !important;
+  }
+}
