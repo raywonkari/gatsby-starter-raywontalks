@@ -1,0 +1,45 @@
+---
+title: "First Blog"
+description: "This is my first blog"
+date: "2021-01-31"
+slug: "/first-blog/"
+displayimage: "./image.png"
+socialimage: "./social.jpg"
+tags: 
+ - first
+---
+
+import Heading from "../../src/components/post-headings.js";
+import Links from "../../src/components/post-links.js";
+
+export const ids = {
+    first: "firstsection",
+    second: "firstsection",
+    third: "firstsection",
+    fourth: "firstsection",
+}
+
+export const titles = {
+    first: "First Section",
+    second: "Second Section",
+    third: "Third Section",
+    fourth: "Fourth Section",
+}
+
+<Heading id={ids.first} title={titles.first} slug={props.slug} />
+
+This is my first section in the blog. Visit my main blog <Links href="https://raywontalks.com" name="here" color="#663399" />.
+
+If you specify a color code, it will display the color for the embedded link word, otherwise it will stick to default blue color.
+
+<Heading id={ids.second} title={titles.second} slug={props.slug} />
+
+This is my second section in the blog.
+
+<Heading id={ids.third} title={titles.third} slug={props.slug} />
+
+This is my third section in the blog.
+
+<Heading id={ids.fourth} title={titles.fourth} slug={props.slug} />
+
+This is my fourth section in the blog.
