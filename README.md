@@ -1,2 +1,3 @@
-# gatsby-starter-raywontalks
-Gatsby starter template of my blogging site raywontalks.com
+# A raywontalks.com Gatsby Starter
+
+Visit my blog post here, to get started: https://raywontalks.com/raywontalks-gatsby
